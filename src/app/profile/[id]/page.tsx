@@ -1,4 +1,4 @@
-export default function UserProfile({params} : any) {
+export default async function UserProfile({params} : any) {
     return (
         <div className="flex flex-col bg-slate-900 items-center justify-center min-h-screen py-2">
             <h1 className="mb-8 font-extrabold text-4xl">Profile</h1>
